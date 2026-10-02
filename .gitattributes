@@ -1,0 +1,7 @@
+# Store and check out text files with LF line endings on every OS.
+* text=auto eol=lf
+
+# Binary assets: never touch line endings.
+*.png binary
+*.ico binary
+*.woff2 binary
